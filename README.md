@@ -8,15 +8,44 @@ I am an NYU graduate who has work experience in M&A and start-up. I learned that
 
 Daishin Securities offers its API through a program called CybosPlus to its members.
 
-Getting Started
+Check if Connected to the Server
+If 1 is printed out, yes. If 0, no. 
 ```markdown
-#check if connected to the server
 import win32com.client
 instCpCybos = win32com.client.Dispatch("CpUtil.CpCybos")
 print(instCpCybos.IsConnect)
+```
+StockChart Class Reference
+| Type | Input Data Type | Value |
+| ---- | --------------- | ----- |
+| 0    | Reference Code  | Value of Reference Code |
+
+Retrieve Past Stock Data
+```markdown
+
+
+| Type | Input Data Type | Value |
+| ---- | --------------- | ----- |
+| 0    | Reference Code  | Value of Reference Code |
+
+
+import win32com.client
+instStockChart = win32com.client.Dispatch("CpSysDib.StockChart")
+
+instStockChart.SetInputValue(0, "A003540")
+instStockChart.SetInputValue(1,ord(2))
+instStockChart.SetInputValue(4, 10)
+instStockChart.SetInputValue(5,5)
+instStockChart.SetInputValue(6, ord('D))
+instStockChart.SetInputValue(9, ord('1'))
+
+instStockChart.BlockRequest()
+
+numData = instStockChart.GetHEaderValue(3)
+for i in range(numData):
+    print(instStockChart.GetDataValue(0,i))
 
 ```
-
 Export 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
