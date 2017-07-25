@@ -8,15 +8,16 @@ I am an NYU graduate who has work experience in M&A and start-up. I learned that
 
 Daishin Securities offers its API through a program called CybosPlus to its members.
 
+Getting Started
 ```markdown
-How to check if connected to CybosPlus
-
+#check if connected to the server
 import win32com.client
 instCpCybos = win32com.client.Dispatch("CpUtil.CpCybos")
 print(instCpCybos.IsConnect)
 
 ```
 
+Export 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
