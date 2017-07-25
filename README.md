@@ -20,15 +20,12 @@ __StockChart Class Reference__
  |Type|Input Data Type|Value|
  |---|---|---|
  |0|Reference Code|Value of Reference Code|
+ |1|Request Type|'1':request in amount of time, '2':request in amount of data|
 
 
 Retrieve Past Stock Data
 ```markdown
 
-
-|Type|Input Data Type|Value|
-|----|---------------|----- |
-|0|Reference Code|Value of Reference Code|
 
 
 import win32com.client
