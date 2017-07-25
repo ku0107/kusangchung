@@ -16,20 +16,19 @@ instCpCybos = win32com.client.Dispatch("CpUtil.CpCybos")
 print(instCpCybos.IsConnect)
 ```
 __StockChart Class Reference__
-```markdown
- | Type | Input Data Type | Value |
- | --- | --- | --- |
- | 0    | Reference Code  | Value of Reference Code |
 
-```
+ |Type|Input Data Type|Value|
+ |---|---|---|
+ |0|Reference Code|Value of Reference Code|
+
 
 Retrieve Past Stock Data
 ```markdown
 
 
-| Type | Input Data Type | Value |
-| ---- | --------------- | ----- |
-| 0    | Reference Code  | Value of Reference Code |
+|Type|Input Data Type|Value|
+|----|---------------|----- |
+|0|Reference Code|Value of Reference Code|
 
 
 import win32com.client
