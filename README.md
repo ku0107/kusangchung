@@ -9,21 +9,12 @@ I am an NYU graduate who has work experience in M&A and start-up. I learned that
 Daishin Securities offers its API through a program called CybosPlus to its members.
 
 ```markdown
-Syntax highlighted code block
+How to check if connected to CybosPlus
 
-# Header 1
-## Header 2
-### Header 3
+import win32com.client
+instCpCybos = win32com.client.Dispatch("CpUtil.CpCybos")
+print(instCpCybos.IsConnect)
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
