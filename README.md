@@ -1,12 +1,11 @@
-## Welcome to GitHub Pages
+## Ku Chung's GitHub Page
 
-You can use the [editor on GitHub](https://github.com/ku0107/kusangchung/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+I am an NYU graduate who has work experience in M&A and start-up. I learned that adding value to an organization is a collaborative effort that requires both quantiative prowess and the ability to tell compelling stories using data. With this blog, I aim to showcase my data analytic skills for which I have pride in.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Algorithmic Trading with Python
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+###DaiShin Securities CybosPlus
+Daishin Securities offers its API through a program called CybosPlus to its members.
 
 ```markdown
 Syntax highlighted code block
