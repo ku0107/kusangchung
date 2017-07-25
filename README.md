@@ -4,7 +4,8 @@ I am an NYU graduate who has work experience in M&A and start-up. I learned that
 
 ## Algorithmic Trading with Python
 
-###DaiShin Securities CybosPlus
+### DaiShin Securities CybosPlus
+
 Daishin Securities offers its API through a program called CybosPlus to its members.
 
 ```markdown
